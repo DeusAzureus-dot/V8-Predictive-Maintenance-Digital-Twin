@@ -7,10 +7,7 @@ int main() {
     std::cout << "  STATUS: LOGICAL CORE ECU VERIFIED & INITIALIZED  " << std::endl;
     std::cout << "========================================" << std::endl;
 
-    double t= 1.5;
-    double omega=0.5;
-    double ans = std::sin(t*omega);
-    std::cout << "The calculated answer is:"<< ans << std::endl;
+    std::cout << "Lets TEST SOMETHING"<< " " << "Some Bullshit Hard Coded Value" << std::endl;
 
     return 0;
 }
